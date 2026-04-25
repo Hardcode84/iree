@@ -7,9 +7,9 @@
 #ifndef IREE_MODULES_CHECK_DIALECT_CHECK_OPS
 #define IREE_MODULES_CHECK_DIALECT_CHECK_OPS
 
-include "iree/compiler/Modules/Check/IR/CheckBase.td"
 include "iree/compiler/Dialect/HAL/IR/HALBase.td"
 include "iree/compiler/Dialect/HAL/IR/HALTypes.td"
+include "iree/compiler/Modules/Check/IR/CheckBase.td"
 
 def CHECK_ExpectTrueOp : CHECK_Op< "expect_true"> {
   let summary = [{Checks that the operand is true.}];

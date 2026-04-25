@@ -7,9 +7,9 @@
 #ifndef IREE_PLUGINS_TARGET_ROCM_DIALECT_ROCM_DIALECT
 #define IREE_PLUGINS_TARGET_ROCM_DIALECT_ROCM_DIALECT
 
-include "mlir/IR/OpBase.td"
 include "mlir/IR/AttrTypeBase.td"
 include "mlir/IR/EnumAttr.td"
+include "mlir/IR/OpBase.td"
 
 def ROCM_Dialect : Dialect {
   let name = "rocm";

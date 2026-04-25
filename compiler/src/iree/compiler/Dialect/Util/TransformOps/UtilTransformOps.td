@@ -10,9 +10,9 @@
 include "mlir/Dialect/Transform/IR/TransformDialect.td"
 include "mlir/Dialect/Transform/IR/TransformTypes.td"
 include "mlir/Dialect/Transform/Interfaces/TransformInterfaces.td"
-include "mlir/Interfaces/SideEffectInterfaces.td"
-include "mlir/IR/RegionKindInterface.td"
 include "mlir/IR/OpBase.td"
+include "mlir/IR/RegionKindInterface.td"
+include "mlir/Interfaces/SideEffectInterfaces.td"
 
 def CreateSerializedModuleOp : Op<Transform_Dialect, "util.create_serialized_module",
     [DeclareOpInterfaceMethods<TransformOpInterface>,

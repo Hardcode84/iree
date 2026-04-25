@@ -7,8 +7,8 @@
 #ifndef IREE_CODEGEN_DIALECT_MAP_IREEMAP_BASE
 #define IREE_CODEGEN_DIALECT_MAP_IREEMAP_BASE
 
-include "mlir/IR/OpBase.td"
 include "mlir/IR/AttrTypeBase.td"
+include "mlir/IR/OpBase.td"
 
 //===----------------------------------------------------------------------===//
 // IREE Map Dialect

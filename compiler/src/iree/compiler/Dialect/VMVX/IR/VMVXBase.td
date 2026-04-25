@@ -8,8 +8,8 @@
 #define IREE_DIALECT_MODULES_VMVX_BASE
 
 include "iree/compiler/Dialect/Util/IR/UtilBase.td"
-include "iree/compiler/Utils/DocMetadata.td"
 include "iree/compiler/Dialect/Util/IR/UtilTypes.td"
+include "iree/compiler/Utils/DocMetadata.td"
 include "mlir/Interfaces/SideEffectInterfaces.td"
 
 //===----------------------------------------------------------------------===//

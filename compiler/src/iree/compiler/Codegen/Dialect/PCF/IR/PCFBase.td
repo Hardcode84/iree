@@ -7,11 +7,11 @@
 #ifndef IREE_CODEGEN_DIALECT_PCF_DIALECT
 #define IREE_CODEGEN_DIALECT_PCF_DIALECT
 
-include "mlir/IR/DialectBase.td"
-include "mlir/IR/CommonTypeConstraints.td"
 include "iree/compiler/Codegen/Dialect/PCF/IR/PCFInterfaces.td"
 include "mlir/IR/AttrTypeBase.td"
 include "mlir/IR/BuiltinTypeInterfaces.td"
+include "mlir/IR/CommonTypeConstraints.td"
+include "mlir/IR/DialectBase.td"
 include "mlir/IR/EnumAttr.td"
 
 //===----------------------------------------------------------------------===//

@@ -7,9 +7,9 @@
 #ifndef IREE_CODEGEN_DIALECT_CPU_IREECPU_DIALECT
 #define IREE_CODEGEN_DIALECT_CPU_IREECPU_DIALECT
 
-include "mlir/IR/OpBase.td"
 include "mlir/IR/AttrTypeBase.td"
 include "mlir/IR/EnumAttr.td"
+include "mlir/IR/OpBase.td"
 
 def IREECPU_Dialect : Dialect {
   let name = "iree_cpu";

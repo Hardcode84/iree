@@ -7,15 +7,15 @@
 #ifndef IREE_DIALECT_VECTOREXT_OPS
 #define IREE_DIALECT_VECTOREXT_OPS
 
-include "mlir/Interfaces/VectorInterfaces.td"
-include "iree/compiler/Codegen/Dialect/VectorExt/IR/VectorExtBase.td"
 include "iree/compiler/Codegen/Dialect/VectorExt/IR/VectorExtAttrs.td"
+include "iree/compiler/Codegen/Dialect/VectorExt/IR/VectorExtBase.td"
 include "iree/compiler/Codegen/Dialect/VectorExt/IR/VectorExtInterfaces.td"
 include "iree/compiler/Codegen/Dialect/VectorExt/IR/VectorExtOpInterfaces.td"
 include "mlir/IR/OpBase.td"
 include "mlir/Interfaces/ControlFlowInterfaces.td"
 include "mlir/Interfaces/SideEffectInterfaces.td"
 include "mlir/Interfaces/ValueBoundsOpInterface.td"
+include "mlir/Interfaces/VectorInterfaces.td"
 
 //===----------------------------------------------------------------------===//
 // Base class.

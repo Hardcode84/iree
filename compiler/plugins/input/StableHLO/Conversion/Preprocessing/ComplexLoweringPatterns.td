@@ -7,8 +7,8 @@
 // This is the legalization pattern that converts complex operations into
 // equivalent real value operations.
 
-include "mlir/IR/OpBase.td"
 include "mlir/Dialect/Func/IR/FuncOps.td"
+include "mlir/IR/OpBase.td"
 include "stablehlo/dialect/StablehloOps.td"
 
 class ConstantSplat<string value> : NativeCodeCall<

@@ -7,11 +7,11 @@
 #ifndef IREE_DIALECT_LINALGEXT_BASE
 #define IREE_DIALECT_LINALGEXT_BASE
 
-include "mlir/Dialect/Utils/StructuredOpsUtils.td"
 include "mlir/Dialect/SCF/IR/DeviceMappingInterface.td"
-include "mlir/IR/OpBase.td"
+include "mlir/Dialect/Utils/StructuredOpsUtils.td"
 include "mlir/IR/AttrTypeBase.td"
 include "mlir/IR/EnumAttr.td"
+include "mlir/IR/OpBase.td"
 
 //===----------------------------------------------------------------------===//
 // Dialect definition

@@ -7,10 +7,10 @@
 #ifndef IREE_DIALECT_VECTOREXT_BASE
 #define IREE_DIALECT_VECTOREXT_BASE
 
-include "mlir/IR/OpAsmInterface.td"
-include "mlir/IR/OpBase.td"
 include "mlir/IR/AttrTypeBase.td"
 include "mlir/IR/EnumAttr.td"
+include "mlir/IR/OpAsmInterface.td"
+include "mlir/IR/OpBase.td"
 
 include "iree/compiler/Codegen/Dialect/VectorExt/IR/VectorExtInterfaces.td"
 

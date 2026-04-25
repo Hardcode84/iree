@@ -7,15 +7,15 @@
 #ifndef IREE_COMPILER_CODEGEN_COMMON_TRANSFORMEXTENSIONS_COMMONEXTENSIONS
 #define IREE_COMPILER_CODEGEN_COMMON_TRANSFORMEXTENSIONS_COMMONEXTENSIONS
 
-include "mlir/Dialect/Transform/Interfaces/MatchInterfaces.td"
+include "mlir/Dialect/SCF/IR/DeviceMappingInterface.td"
 include "mlir/Dialect/Transform/IR/TransformAttrs.td"
 include "mlir/Dialect/Transform/IR/TransformDialect.td"
 include "mlir/Dialect/Transform/IR/TransformTypes.td"
+include "mlir/Dialect/Transform/Interfaces/MatchInterfaces.td"
 include "mlir/Dialect/Transform/Interfaces/TransformInterfaces.td"
-include "mlir/Interfaces/SideEffectInterfaces.td"
-include "mlir/Dialect/SCF/IR/DeviceMappingInterface.td"
 include "mlir/IR/EnumAttr.td"
 include "mlir/IR/OpBase.td"
+include "mlir/Interfaces/SideEffectInterfaces.td"
 
 def ApplyBubbleCollapsePatternsOp : Op<Transform_Dialect,
     "apply_patterns.iree.bubble_collapse",

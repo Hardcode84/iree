@@ -7,17 +7,17 @@
 #ifndef IREE_CODEGEN_DIALECT_IREEGPUOPS
 #define IREE_CODEGEN_DIALECT_IREEGPUOPS
 
+include "iree/compiler/Codegen/Dialect/GPU/IR/IREEGPUAttrs.td"
 include "iree/compiler/Codegen/Dialect/GPU/IR/IREEGPUDialect.td"
 include "iree/compiler/Codegen/Dialect/GPU/IR/IREEGPUInterfaces.td"
-include "iree/compiler/Codegen/Dialect/GPU/IR/IREEGPUAttrs.td"
 include "iree/compiler/Codegen/Interfaces/HoistableRegionOpInterface.td"
 include "iree/compiler/Utils/CommonTypeConstraints.td"
+include "mlir/IR/OpAsmInterface.td"
+include "mlir/IR/OpBase.td"
 include "mlir/Interfaces/ControlFlowInterfaces.td"
 include "mlir/Interfaces/DestinationStyleOpInterface.td"
 include "mlir/Interfaces/ParallelCombiningOpInterface.td"
 include "mlir/Interfaces/SideEffectInterfaces.td"
-include "mlir/IR/OpAsmInterface.td"
-include "mlir/IR/OpBase.td"
 
 
 //===----------------------------------------------------------------------===//

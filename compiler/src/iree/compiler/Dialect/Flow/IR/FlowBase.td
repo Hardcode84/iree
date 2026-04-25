@@ -9,8 +9,8 @@
 
 include "iree/compiler/Dialect/Flow/IR/FlowInterfaces.td"
 include "iree/compiler/Dialect/Util/IR/UtilBase.td"
-include "iree/compiler/Utils/DocMetadata.td"
 include "iree/compiler/Dialect/Util/IR/UtilTypes.td"
+include "iree/compiler/Utils/DocMetadata.td"
 include "mlir/IR/AttrTypeBase.td"
 include "mlir/IR/BuiltinAttributeInterfaces.td"
 include "mlir/Interfaces/SideEffectInterfaces.td"

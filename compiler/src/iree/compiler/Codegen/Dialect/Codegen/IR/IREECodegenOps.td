@@ -7,24 +7,24 @@
 #ifndef IREE_CODEGEN_DIALECT_IREECODEGENOPS
 #define IREE_CODEGEN_DIALECT_IREECODEGENOPS
 
+include "iree/compiler/Codegen/Dialect/Codegen/IR/IREECodegenAttrs.td"
 include "iree/compiler/Codegen/Dialect/Codegen/IR/IREECodegenDialect.td"
 include "iree/compiler/Codegen/Dialect/Codegen/IR/IREECodegenInterfaces.td"
 include "iree/compiler/Codegen/Dialect/Codegen/IR/IREECodegenTypes.td"
-include "iree/compiler/Codegen/Dialect/Codegen/IR/IREECodegenAttrs.td"
 include "iree/compiler/Utils/CommonTypeConstraints.td"
 include "mlir/Dialect/Linalg/IR/LinalgBase.td"
+include "mlir/Dialect/SMT/IR/SMTTypes.td"
 include "mlir/IR/OpAsmInterface.td"
 include "mlir/IR/OpBase.td"
 include "mlir/IR/Properties.td"
-include "mlir/Interfaces/DestinationStyleOpInterface.td"
 include "mlir/Interfaces/ControlFlowInterfaces.td"
+include "mlir/Interfaces/DestinationStyleOpInterface.td"
+include "mlir/Interfaces/InferTypeOpInterface.td"
 include "mlir/Interfaces/SideEffectInterfaces.td"
 include "mlir/Interfaces/TilingInterface.td"
+include "mlir/Interfaces/ValueBoundsOpInterface.td"
 include "mlir/Interfaces/VectorInterfaces.td"
 include "mlir/Interfaces/ViewLikeInterface.td"
-include "mlir/Interfaces/InferTypeOpInterface.td"
-include "mlir/Interfaces/ValueBoundsOpInterface.td"
-include "mlir/Dialect/SMT/IR/SMTTypes.td"
 
 def TensorTypeAttr : TypeAttrBase<"::mlir::TensorType", "Tensor type attribute">;
 

@@ -8,9 +8,9 @@
 #define IREE_DIALECT_TENSOREXT_BASE
 
 include "iree/compiler/Utils/DocMetadata.td"
-include "mlir/IR/OpBase.td"
 include "mlir/IR/AttrTypeBase.td"
 include "mlir/IR/EnumAttr.td"
+include "mlir/IR/OpBase.td"
 include "mlir/Interfaces/SideEffectInterfaces.td"
 
 //===----------------------------------------------------------------------===//

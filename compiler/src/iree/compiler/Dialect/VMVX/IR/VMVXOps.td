@@ -11,8 +11,8 @@ include "iree/compiler/Dialect/HAL/IR/HALAttrs.td"
 include "iree/compiler/Dialect/VMVX/IR/VMVXBase.td"
 include "iree/compiler/Dialect/VMVX/IR/VMVXInterfaces.td"
 include "mlir/IR/OpAsmInterface.td"
-include "mlir/Interfaces/SideEffectInterfaces.td"
 include "mlir/IR/OpBase.td"
+include "mlir/Interfaces/SideEffectInterfaces.td"
 
 //===----------------------------------------------------------------------===//
 // Utility ops

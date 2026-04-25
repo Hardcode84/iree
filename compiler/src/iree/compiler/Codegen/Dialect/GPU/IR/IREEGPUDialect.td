@@ -7,9 +7,9 @@
 #ifndef IREE_CODEGEN_DIALECT_GPU_IREEGPU_DIALECT
 #define IREE_CODEGEN_DIALECT_GPU_IREEGPU_DIALECT
 
-include "mlir/IR/OpBase.td"
 include "mlir/IR/AttrTypeBase.td"
 include "mlir/IR/EnumAttr.td"
+include "mlir/IR/OpBase.td"
 
 //===----------------------------------------------------------------------===//
 // IREE GPU Dialect

@@ -13,8 +13,8 @@ include "mlir/Dialect/Transform/IR/TransformAttrs.td"
 include "mlir/Dialect/Transform/IR/TransformDialect.td"
 include "mlir/Dialect/Transform/IR/TransformTypes.td"
 include "mlir/Dialect/Transform/Interfaces/TransformInterfaces.td"
-include "mlir/Interfaces/SideEffectInterfaces.td"
 include "mlir/IR/OpBase.td"
+include "mlir/Interfaces/SideEffectInterfaces.td"
 
 def ApplyDropInnerTiledOpUnitDims : Op<Transform_Dialect,
     "apply_patterns.iree.drop_inner_tiled_unit_dims",

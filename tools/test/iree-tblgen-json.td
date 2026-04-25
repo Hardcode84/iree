@@ -10,10 +10,10 @@
 // RUN:   -I %S/../../../+_repo_rules+llvm-project/mlir/include \
 // RUN:   | FileCheck %s
 
-include "mlir/IR/OpBase.td"
+include "iree/compiler/Utils/DocMetadata.td"
 include "mlir/IR/AttrTypeBase.td"
 include "mlir/IR/OpAsmInterface.td"
-include "iree/compiler/Utils/DocMetadata.td"
+include "mlir/IR/OpBase.td"
 
 //===----------------------------------------------------------------------===//
 // Test Dialect Definition

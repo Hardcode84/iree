@@ -9,9 +9,9 @@
 
 include "iree/compiler/Dialect/HAL/IR/HALBase.td"
 include "iree/compiler/Dialect/HAL/IR/HALTypes.td"
-include "iree/compiler/Modules/HAL/Inline/IR/HALInlineBase.td"
 include "iree/compiler/Dialect/Util/IR/UtilAttrs.td"
 include "iree/compiler/Dialect/Util/IR/UtilInterfaces.td"
+include "iree/compiler/Modules/HAL/Inline/IR/HALInlineBase.td"
 include "mlir/IR/OpAsmInterface.td"
 include "mlir/Interfaces/SideEffectInterfaces.td"
 

@@ -9,7 +9,7 @@
 
 include "mlir/Dialect/Transform/IR/TransformDialect.td"
 include "mlir/Dialect/Transform/Interfaces/TransformInterfaces.td"
-include "mlir/Interfaces/SideEffectInterfaces.td"
 include "mlir/IR/OpBase.td"
+include "mlir/Interfaces/SideEffectInterfaces.td"
 
 #endif // IREE_COMPILER_CODEGEN_LLVMCPU_TRANSFORMEXTENSIONS_LLVMCPUEXTENSIONS
