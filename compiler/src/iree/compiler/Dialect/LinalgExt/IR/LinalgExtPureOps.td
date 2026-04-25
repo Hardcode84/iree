@@ -43,7 +43,11 @@ def IREELinalgExt_IndexOp : IREELinalgExt_PureOp<"index", [Pure]>,
   let hasVerifier = 1;
 }
 
-def IREELinalgExt_YieldOp : IREELinalgExt_PureOp<"yield", [Pure, ReturnLike, Terminator]> {
+def IREELinalgExt_YieldOp : IREELinalgExt_PureOp<"yield", [
+  Pure,
+  ReturnLike,
+  Terminator
+]> {
   let summary = [{LinalgExt yield op.}];
   let description = [{
     `iree_linalg_ext.yield` is a special terminator operation for blocks inside

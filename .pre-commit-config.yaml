@@ -67,6 +67,12 @@ repos:
     hooks:
       - id: do-not-submit
 
+  - repo: git@github.com:Hardcode84/6.git
+    rev: v0.1.0
+    hooks:
+      - id: tgenfmt
+        name: Run tgenfmt on TableGen files
+
   - repo: local
     hooks:
       - id: buildifier
